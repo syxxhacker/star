@@ -13,5 +13,18 @@ public class Arraylist {
 //        System.out.println(myint.get(7));
         System.out.println("删除后：" + Arrays.toString(myint.toArray()));
 
+        //修改
+        myint.set(5,100);
+        System.out.println("修改后：" + myint);
+
+        //查找数组中值的下标，indexOf
+        System.out.println(myint.indexOf(null));
+
+        //取子列表，subList
+        System.out.println(myint.subList(2,5));
+
+        //清空，clear
+        myint.clear();
+        System.out.println("清空后：" + myint);
     }
 }
